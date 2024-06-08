@@ -1,0 +1,84 @@
+<resources>
+
+    <style name="Base.Theme.Asclepius" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/green</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <item name="colorSecondary">@color/grey_con</item>
+        <item name="colorOnSecondary">@color/grey_con_text</item>
+
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="android:statusBarColor">@color/white</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowBackground">@color/white</item>
+    </style>
+
+    <style name="ToolbarCustom">
+        <item name="android:fontFamily">@font/opensansbold</item>
+    </style>
+
+    <style name="RoundedImageView">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">12dp</item> <!-- Ubah ukuran sesuai kebutuhan -->
+    </style>
+
+    <style name="AlertDialogCustom" parent="ThemeOverlay.Material3.Dialog.Alert">
+        <item name="colorPrimary">@color/green</item>
+        <item name="android:backgroundTint">@color/white</item>
+        <item name="materialAlertDialogBodyTextStyle">@style/AlertDialogTextCustom</item>
+    </style>
+
+    <style name="AlertDialogTextCustom" parent="MaterialAlertDialog.Material3.Body.Text">
+        <item name="android:textColor">@color/grey_con_text</item>
+    </style>
+
+    <style name="ProgressBarCustom">
+        <item name="android:indeterminate">true</item>
+        <item name="android:indeterminateTint">@color/green</item>
+    </style>
+
+    <style name="TextContent">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:lineSpacingExtra">0dp</item>
+        <item name="android:fontFamily">@font/opensansregular</item>
+    </style>
+
+    <style name="TextContent.Body">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="TextContent.SubTitle">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/grey_con_text</item>
+    </style>
+
+    <style name="TextContent.Title">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="TextContent.Body.ExtraBold">
+        <item name="android:fontFamily">@font/opensansextrabold</item>
+    </style>
+
+    <style name="TextContent.Body.Bold">
+        <item name="android:fontFamily">@font/opensansbold</item>
+    </style>
+
+    <style name="TextContent.Body.SemiBold">
+        <item name="android:fontFamily">@font/opensanssemibold</item>
+    </style>
+
+    <style name="TextContent.Title.ExtraBold">
+        <item name="android:fontFamily">@font/opensansextrabold</item>
+    </style>
+
+    <style name="TextContent.Title.Bold">
+        <item name="android:fontFamily">@font/opensansbold</item>
+    </style>
+
+    <style name="TextContent.Title.SemiBold">
+        <item name="android:fontFamily">@font/opensanssemibold</item>
+    </style>
+</resources>
